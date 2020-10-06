@@ -1,0 +1,6 @@
+fh = open("tutorial3/goodbye.txt",'a')
+fh.write("Hello, World!")
+fh.write("Goodbye!")
+fh.close()
+fhr = open("tutorial3/goodbye.txt", 'r')
+print(fhr.read())
