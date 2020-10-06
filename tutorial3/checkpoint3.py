@@ -1,3 +1,30 @@
+'''
+<h1> The Challenge:</h1>
+
+Based off this dataset with school financial, enrollment, and achievement data, we are interested in what information is a useful indicator of student performance at the state level.
+
+This question is a bit too big for a checkpoint, however. Instead, we want you to look at smaller questions related to our overall goal. Here's the overview:
+
+1. Choose a specific test to focus on
+>Math/Reading for 4/8 grade
+* Pick or create features to use
+>Will all the features be useful in predicting test score? Are some more important than others? Should you standardize, bin, or scale the data?
+* Explore the data as it relates to that test
+>Create 2 well-labeled visualizations (graphs), each with a caption describing the graph and what it tells us about the data
+* Create training and testing data
+>Do you want to train on all the data? Only data from the last 10 years? Only Michigan data?
+* Train a ML model to predict outcome 
+>Pick if you want to do a regression or classification task. For both cases, defined _exactly_ what you want to predict, and pick any model in sklearn to use (see sklearn <a href="https://scikit-learn.org/stable/modules/linear_model.html">regressors</a> and <a href="https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html">classifiers</a>).
+* Summarize your findings
+>Write a 1 paragraph summary of what you did and make a recommendation about if and how student performance can be predicted
+
+** Include comments throughout your code! Every cleanup and preprocessing task should be documented.
+
+
+Of course, if you're finding this assignment interesting (and we really hope you do!), you are welcome to do more than the requirements! For example, you may want to see if expenditure affects 4th graders more than 8th graders. Maybe you want to look into the extended version of this dataset and see how factors like sex and race are involved. You can include all your work in this notebook when you turn it in -- just always make sure you explain what you did and interpret your results. Good luck!
+'''
+
+
 # Block 1: Import libraries
 import pandas as pd
 import numpy as np
